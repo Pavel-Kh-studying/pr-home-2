@@ -1,8 +1,3 @@
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 header{
   color: brown;
   width: 100%;
@@ -29,14 +24,15 @@ button{
   font-size: 23px;
 }
 main p{
-  padding: 10px;
   font-size: 20px;
 }
 .main-p1{
+  padding: 10px;
   color: white;
   background-color: brown;
 }
 .main-p2{
+  padding: 10px;
   color: brown;
   background-color: white;
 }
