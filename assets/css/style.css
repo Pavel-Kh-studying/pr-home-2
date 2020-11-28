@@ -1,7 +1,11 @@
+*{
+  box-sizing: border-box;
+}
+
 header{
   color: brown;
   width: 100%;
-  height: 60vh;
+  height: 100vh;
   margin: 0 auto;
   text-align: center;
   padding-top: 40vh;
