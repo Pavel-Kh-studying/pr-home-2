@@ -10,12 +10,15 @@ header{
   background-size: cover;
   background-position: center;
 }
+
 h1{
   font-size: 40px;
 }
+
 header p{
   font-size: 27px;
 }
+
 button{
   background-color: rgba(0, 0, 0, 0);
   color: brown;
@@ -24,27 +27,33 @@ button{
   padding: 10px 30px;
   font-size: 23px;
 }
+
 main p{
   font-size: 20px;
   padding: 10px;
 }
-.main-p1{
+
+.block-section p:nth-child(1){
   color: white;
   background-color: brown;
 }
-.main-p2{
+
+.block-section p:nth-child(2){
   color: brown;
   background-color: white;
 }
-section p{
-  display: inline-block;
+
+.inline-section p{
   width: 33.33%;
+  display: inline-block;
 }
-section p:nth-child(odd){
-  background-color: brown;
+
+.inline-section p:nth-child(odd){
   color: white;
+  background-color: brown;
 }
-section p:nth-child(even){
+
+.inline-section p:nth-child(even){
   color: brown;
   background-color: white;
 }
